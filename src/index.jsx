@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
+// import ImageSlider from './components/ImageSlider';
+import WelcomePage from './views/WelcomePage';
+import ImageSlider from './components/ImageSlider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <ImageSlider />
+    <WelcomePage />
   </React.StrictMode>
 );
 

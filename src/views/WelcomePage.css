@@ -1,0 +1,11 @@
+.welcome-container {
+  display: flex; /* Use flexbox to align items horizontally */
+}
+
+.left-div,
+.right-div {
+  flex: 1; /* Each div takes an equal amount of available space */
+  height: 100px; /* Adjust the height as needed */
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+  padding: 10px; /* Adjust padding as needed */
+}

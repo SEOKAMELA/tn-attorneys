@@ -1,0 +1,78 @@
+/* ImageSlider.css */
+.image-slider-container {
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+    padding: 1px;
+  }
+  
+  .image-slider-container img {
+    height: 60%;
+    width: 100%; /* Take up the full width of the container */
+    object-fit: contain; /* Fit the image within the container, maintaining aspect ratio */
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .button-container button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .button-container button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    width: 15px; /* Set a fixed width for all buttons */
+    height: 15px; /* Adjust the height based on your design */
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: width 0.5s; /* Add a transition for smoother width changes */
+    border-radius: 20%;
+  }
+  
+  .button-container button.active {
+    width: 40px; /* Expand the active button width by 50% */
+    background-color: rgb(159, 159, 176);
+    
+}
+
+.image-slider-container {
+    position: relative;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 0%;
+    left:0%;
+    background-color: rgba(255, 255, 255, 0.161); /* Example background color with opacity */
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(255, 255, 255, 0); /* Example background color with opacity */
+    padding: 10px;
+    width: 40%;
+  }

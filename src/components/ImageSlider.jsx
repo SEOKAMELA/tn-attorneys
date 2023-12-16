@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import image1 from '../assets/image.png';
-import image2 from '../assets/istockphoto-1447689207-2048x2048.jpg';
-import image3 from '../assets/istockphoto-1492247375-2048x2048.jpg';
-
-
+import image1 from '../assets/oncall.jpeg';
+import image2 from '../assets/people.jpeg';
+import image3 from '../assets/talking.jpeg';
 import './ImageSlider.css'; 
 import LandingPageContent from '../views/LandingPage';
+
+
 
 class ImageSlider extends Component {
     constructor(props) {

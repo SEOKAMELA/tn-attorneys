@@ -16,7 +16,7 @@ class WelcomePage extends Component {
         </div>
         <div className='right-div'>
           <div className='form-card'>
-            <h2>Form Title</h2>
+            <h2>Contact us</h2>
             <form>
               <label>
                 <input type='text' name='name' placeholder='Name' />

@@ -49,8 +49,9 @@
   }
   
   .button-container button.active {
-    width: 40px; /* Expand the active button width by 50% */
-    background-color: rgb(159, 159, 176);
+    width: 30px; /* Expand the active button width by 50% */
+    background-color: rgb(40, 40, 77);
+    border-radius: 20%;
     
 }
 

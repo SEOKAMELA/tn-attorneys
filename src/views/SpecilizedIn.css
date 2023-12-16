@@ -1,0 +1,39 @@
+.specilized-container {
+  /* max-width: 10000px; */
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center; /* Align the title in the center */
+}
+
+.cards-div {
+  display: flex;
+  justify-content: space-around; /* Use space-around for better spacing */
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Adjust the width based on your layout */
+  box-sizing: border-box;
+  margin: 10px; /* Add margin for spacing between cards */
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-header i {
+  margin-right: 10px; /* Add margin between icon and heading */
+}
+
+.more-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px; /* Add margin at the top for spacing */
+}

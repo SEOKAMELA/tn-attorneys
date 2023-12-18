@@ -1,11 +1,11 @@
-/* Header.css */
+
+
 .header-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: whitesmoke; /* Set your desired background color */
-    color: white; /* Set your desired text color */
+    background-color: rgb(235, 235, 235); /* Set your desired background color */    
   }
   
   .logo-name-div {
@@ -15,8 +15,8 @@
   }
   
   .logo-img {
-    width: 50px; /* Set your desired width for the logo image */
-    height: 50px; /* Set your desired height for the logo image */
+    width: 80px; /* Set your desired width for the logo image */
+    height: 80px; /* Set your desired height for the logo image */
     margin-right: 10px; /* Adjust the margin as needed */
   }
   
@@ -25,7 +25,8 @@
   }
   
   nav {
-    margin: 0; /* Remove default margin */
+    margin: 10px; /* Remove default margin */
+    
   }
   
   ul {
@@ -48,3 +49,4 @@
     color: rgb(34, 18, 107);
   }
   
+

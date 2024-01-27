@@ -1,52 +1,46 @@
-
-
 .header-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background-color: rgb(235, 235, 235); /* Set your desired background color */    
-  }
-  
-  .logo-name-div {
-    display: flex;
-    align-items: center;
-    color: rgb(34, 18, 107);
-  }
-  
-  .logo-img {
-    width: 80px; /* Set your desired width for the logo image */
-    height: 80px; /* Set your desired height for the logo image */
-    margin-right: 10px; /* Adjust the margin as needed */
-  }
-  
-  .nav-bar-div {
-    display: flex;
-  }
-  
-  nav {
-    margin: 10px; /* Remove default margin */
-    
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-  }
-  
-  li {
-    margin-right: 15px; /* Adjust the margin as needed */
-  }
-  
-  a {
-    text-decoration: none;
-    color: rgb(34, 18, 107); /* Set your desired text color */
-  }
-  
-  .contacts-div {
-    /* Add your desired styles for the contacts section */
-    color: rgb(34, 18, 107);
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(235, 235, 235); /* Set your desired background color */    
+  z-index: 1000; /* Set a high z-index to ensure it's above other elements */
+}
 
+.logo-img {
+  width: 80px; /* Set your desired width for the logo image */
+  height: 80px; /* Set your desired height for the logo image */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.nav-bar-div {
+  display: flex;
+}
+
+nav {
+  margin: 10px; /* Remove default margin */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px; /* Adjust the margin as needed */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(34, 18, 107); /* Set your desired text color */
+}
+
+.contacts-div {
+  /* Add your desired styles for the contacts section */
+  color: rgb(34, 18, 107);
+}

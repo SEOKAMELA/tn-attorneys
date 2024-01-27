@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import image1 from '../assets/oncall.jpeg';
 import image2 from '../assets/people.jpeg';
-import image3 from '../assets/talking.jpeg';
+import image3 from '../assets/black-women-att.jpeg';
 import './ImageSlider.css'; 
 import LandingPageContent from '../views/LandingPage';
 
